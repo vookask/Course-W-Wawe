@@ -1,0 +1,226 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    padding: 0;
+  }
+
+  .burger {
+    display: inline;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__rowTwo__play {
+    display: none;
+  }
+
+  .play-little {
+    display: inline;
+  }
+
+  .hero {
+    background-image: none;
+  }
+
+  .hero__descr {
+    width: 100%;
+  }
+
+  .podcasts__article {
+    width: 100%;
+  }
+
+  .broadcasts {
+    display: block;
+    position: relative;
+  }
+
+  .broadcasts::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100vw;
+    left: -15vw;
+    bottom: 130px;
+    background-color: #E6E8EC;
+  }
+
+  .broadcasts__container {
+    margin: 0;
+    padding-top: 47px;
+  }
+
+  .broadcasts__article {
+    margin: 0;
+  }
+
+  .broadcasts__aside {
+    position: relative;
+    width: 450px;
+    margin-bottom: 30px;
+    padding-left: 33%;
+    padding-top: 90px;
+    top: 0;
+    background-position-x: 88px;
+    background-position-y: 91px;
+    background-size: 16%;
+}
+
+  .broadcasts__aside__btn {
+    margin-bottom: 10px;
+  }
+
+  .guests__container {
+    flex-wrap: wrap;
+  }
+
+  .guests__accordion {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .accordion__body {
+    gap: 28px;
+    padding-top: 30px;
+  }
+
+  .accordion__body__item {
+    padding: 0;
+  }
+
+  .guests__text {
+    width: 100%;
+  }
+
+  .guests__cards__default {
+    width: 100%;
+  }
+
+  .guests__cards {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .guests__cards__descr {
+    max-width: 400px;
+  }
+
+  .playlists {
+    padding-bottom: 87px;
+  }
+
+  .playlists__radio {
+    gap: 14px;
+    margin-right: 0;
+  }
+
+  .playlists__cards {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 27px;
+    column-gap: 30px;
+  }
+
+  .product__content {
+    padding-left: 0;
+    padding-top: 484px;
+    background-position-y: 55px;
+    background-size: 100%;
+  }
+
+  .playlists__cards__article__title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .product__icon_new {
+    top: 4%;
+    zoom: 100%;
+  }
+
+  .product__content__title {
+    padding-right: 50px;
+  }
+
+  .containers {
+    max-width: 700px;
+  }
+
+  .about__container {
+    padding-bottom: 145px;
+    background-image: url(/img/about-img-med.png);
+    background-position-y: 94%;
+  }
+
+  .about__content {
+    width: 100%;
+  }
+
+  .about__form__row {
+    display: block;
+  }
+
+  .about__form__text {
+    margin-top: 30px;
+  }
+
+  .about__form__name {
+    width: 100%;
+  }
+
+  .about__form__email {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer {
+    grid-template-columns: minmax(100px, auto) minmax(auto, 540px) minmax(100px, auto) ;
+  }
+
+  .footer__container {
+    grid-template-rows: repeat(2, auto);
+    padding-bottom: 52px;
+    justify-content: center;
+  }
+
+  .footer__pic {
+    grid-row: 1 / 2;
+    width: 160px;
+    justify-self: center;
+  }
+
+  .footer__pic__icons {
+    display: flex;
+    padding-top: 19px;
+    justify-content: space-around;
+  }
+
+  .footer__pic__icons__social {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__nav {
+    grid-row: 2 / 3;
+    grid-template: repeat(3, 46px) / repeat(3, auto);
+    width: 100%;
+    padding-top: 78px;
+  }
+
+  .footer__nav__item {
+    padding-top: 27px;
+  }
+
+  .modal__content {
+    width: 539px;
+    height: 655px;
+  }
+
+  .modal__form {
+    width: 100%;
+  }
+}
